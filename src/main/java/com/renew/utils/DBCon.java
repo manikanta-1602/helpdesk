@@ -9,7 +9,7 @@ public class DBCon {
         try {
             Class.forName("oracle.jdbc.OracleDriver");
             System.out.println("Oracle Driver Loaded!");
-            String url = "jdbc:oracle:thin:@localhost:1521:XE";
+            String url = "jdbc:oracle:thin:@localhost:1522:XE";
             String uname = "system";
             String pwd = "svsm";
             return DriverManager.getConnection(url, uname, pwd);
